@@ -1,6 +1,4 @@
-# Rico Portfolio - Designer Portfolio Website
-
-> [中文文档](README-zh.md) | English
+# JAML Studio Portfolio Website
 
 A modern, high-performance designer portfolio website template built with Astro. Features a retro blue theme, dark mode support, beautiful animations, and excellent user experience.
 
@@ -163,54 +161,8 @@ Create new MDX files in the `src/content/post/` directory. The project uses Astr
 - **Social Cards**: [Figma Bento 2.5d](https://www.figma.com/community/file/1232620929235403629/bento-2-5d-widgets)
 
 
-## 📧 Contact
-
-- **Author**: Ricoui
-- **Blog**: [ricoui.com](https://github.com/ricocc)
-- **Email**: hello@ricoui.com
-- **Twitter**: [@ricouii](https://x.com/ricouii)
-- **GitHub**: [@ricocc](https://github.com/ricocc)
-
-
-## 💡 Other Products
-
-- **Rico Blog** - Open Source: [https://github.com/ricocc/public-portfolio-site](https://github.com/ricocc/public-portfolio-site)
-
-- **OG Gallery**: [ricoog.com](https://ricoog.com/)
-
-
 ## 🙏 Acknowledgments
 
 - [Astro](https://astro.build) - Excellent static site generator
 - [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
 - All developers who contributed to this project
-
-
-## About the Author
-
-I'm Rico, a web/UI designer passionate about creating fun and creative work. I have experience in UI/UX design and am currently focused on web design, visual implementation, and exploring development projects. I regularly update my blog on <a href="https://ricoui.com/" target="_blank">Rico's Blog</a>. You can also follow me on Xiaohongshu  [@Rico的设计漫想](https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f) 和 X [@ricouii](https://x.com/ricouii).
-
-
-Or add me on WeChat—let’s be friends.
-
-<img src="https://ricoui.com/assets/wechat.png" alt="ricocc-wechat" width="280" height="auto" style="display:inline-block;margin:12px;">
-
-
-## 💜 Support the Author
-
-If you’ve found this helpful, even a small contribution can greatly encourage creators. Thank you!
-
-<img src="https://ricoui.com/assets/zanshangma.jpg" alt="ricocc-wechat" width="280" height="auto" style="display:inline-block;margin:12px;">
-
-<a href="https://ko-fi.com/T6T817U4KZ" target="_blank" style="display:inline-block;margin:.5rem auto 1rem;" data-astro-cid-wlrjxfd7=""><img height="44" style=" border:0px;height:44px;" src="https://storage.ko-fi.com/cdn/kofi2.png?v=6" alt="Buy Me a Coffee at ko-fi.com" data-astro-cid-wlrjxfd7=""></a>
-
-## 📝 Changelog
-
-### Latest Updates (2024)
-
-- **Upgraded to Astro 5.15.4** - Fully compliant with Astro v5.15 standards and compatible with Astro v6
-- **Content Collections Upgrade** - Using new Content Layer API, all legacy APIs removed
-- **API Modernization** - All deprecated APIs updated to latest standards
-- **Performance Optimization** - Optimized build and runtime performance
-
-⭐ If this project helps you, please give it a Star!

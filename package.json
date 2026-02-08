@@ -1,5 +1,5 @@
 {
-	"name": "astro-rico-portfolio",
+	"name": "astro-jaml-portfolio",
 	"type": "module",
 	"version": "1.0.0",
 	"description": "A modern, high-performance portfolio website template for designers built with Astro. Features retro blue theme, dark mode, and beautiful animations.",
@@ -14,18 +14,18 @@
 		"responsive"
 	],
 	"author": {
-		"name": "Ricoui",
-		"email": "hello@ricoui.com",
-		"url": "https://ricoui.com"
+		"name": "jaml17",
+		"email": "jaml17@proton.me",
+		"url": "https://jaml.studio"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ricocc/ricoui-portfolio.git"
+		"url": "https://github.com/lancasja/jl-dt-portfolio.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ricocc/ricoui-portfolio/issues"
+		"url": "https://github.com/lancasja/jl-dt-portfolio/issues"
 	},
-	"homepage": "https://github.com/ricocc/ricoui-portfolio#readme",
+	"homepage": "https://github.com/lancasja/jl-dt-portfolio#readme",
 	"license": "Apache-2.0",
 	"scripts": {
 		"dev": "astro dev",

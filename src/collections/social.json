@@ -1,44 +1,42 @@
 [
 	{
-        "id": 1,
+		"id": 1,
 		"name": "Github",
-        "username": "lancasja",
+		"username": "lancasja",
 		"image": "/assets/social/social-github.jpg",
 		"url": "https://github.com/lancasja/"
 	},
-	
+
 	{
-        "id": 2,
+		"id": 2,
 		"name": "Figma",
-        "username": "hichusushi",
+		"username": "hichusushi",
 		"image": "/assets/social/social-figma.jpg",
 		"url": "https://www.figma.com/@hichusushi"
 	},
-	
+
 	{
-        "id": 3,
+		"id": 3,
 		"name": "Bandcamp",
-        "username": "jaml17",
+		"username": "jaml17",
 		"image": "/assets/social/social-bandcamp.jpg",
 		"url": "https://bandcamp.com/jaml17"
 	},
 
 	{
-        "id": 4,
+		"id": 4,
 		"name": "LinkedIn",
-        "username": "jaml17",
+		"username": "jaml17",
 		"image": "/assets/social/social-linkedin.jpg",
 		"url": "https://www.linkedin.com/in/jaml17/"
 	},
 
-    {
-        "id": 5,
+	{
+		"id": 5,
 		"name": "Email",
-        "username": "",
+		"username": "",
 		"image": "/assets/social/social-email.jpg",
 		"url": "mailto:jaml17@proton.me",
 		"isShow": true
 	}
-
-
 ]

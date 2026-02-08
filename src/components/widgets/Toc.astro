@@ -1,32 +1,32 @@
 ---
 interface Heading {
-  depth: number;
-  slug: string;
-  text: string;
+	depth: number;
+	slug: string;
+	text: string;
 }
 
 interface HeadingNode extends Heading {
-  children: HeadingNode[];
+	children: HeadingNode[];
 }
 
 const { headings = [] } = Astro.props as { headings: Heading[] };
 
 function buildTree(list: Heading[]): HeadingNode[] {
-  const root: HeadingNode[] = [];
-  const stack: HeadingNode[] = [];
-  list.forEach(h => {
-    const node: HeadingNode = { ...h, children: [] };
-    while (stack.length && stack[stack.length - 1].depth >= h.depth) {
-      stack.pop();
-    }
-    if (stack.length === 0) {
-      root.push(node);
-    } else {
-      stack[stack.length - 1].children.push(node);
-    }
-    stack.push(node);
-  });
-  return root;
+	const root: HeadingNode[] = [];
+	const stack: HeadingNode[] = [];
+	list.forEach((h) => {
+		const node: HeadingNode = { ...h, children: [] };
+		while (stack.length && stack[stack.length - 1].depth >= h.depth) {
+			stack.pop();
+		}
+		if (stack.length === 0) {
+			root.push(node);
+		} else {
+			stack[stack.length - 1].children.push(node);
+		}
+		stack.push(node);
+	});
+	return root;
 }
 const tree = buildTree(headings);
 ---
@@ -270,7 +270,7 @@ const tree = buildTree(headings);
 .depth-2 { padding-left: 0.5rem; }
 .depth-3 { padding-left: .2em; font-size: 0.875em; }
 
-/* 响应式样式 */
+/* Responsive styles */
 @media (max-width: 1023px) {
   .toc-container {
     position: relative;
@@ -334,7 +334,7 @@ const tree = buildTree(headings);
 
   .toc {
     display: none;
-    position: static; /* 移动端不使用 sticky */
+    position: static; /* No sticky on mobile */
     max-height: none;
     margin-top: 0.5rem;
   }

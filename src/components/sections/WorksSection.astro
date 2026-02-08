@@ -3,18 +3,18 @@ import works from "@/collections/works.json";
 import WorkCard from "@/components/cards/WorkCard.astro";
 
 interface Props {
-  limit?: number; // Limit the number of displayed projects
+	limit?: number; // Limit the number of displayed projects
 }
 
 interface Work {
-  name: string;
-  slug?: string;
-  description?: string;
-  image: string;
-  url?: string;
-  tags?: string[];
-  video?: string;
-  isShow?: boolean;
+	name: string;
+	slug?: string;
+	description?: string;
+	image: string;
+	url?: string;
+	tags?: string[];
+	video?: string;
+	isShow?: boolean;
 }
 
 const { limit } = Astro.props;
@@ -24,7 +24,7 @@ let allWorks = works as Work[];
 
 // If limit is specified, use limit
 if (limit !== undefined) {
-  allWorks = works.slice(0, limit) as Work[];
+	allWorks = works.slice(0, limit) as Work[];
 }
 ---
 

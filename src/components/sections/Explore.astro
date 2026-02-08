@@ -1,11 +1,11 @@
 ---
 import SectionHeader from "@/components/elements/SectionHeader.astro";
-import Matter from "@/components/ui/Matter.astro";
 import Button from "@/components/ui/Button.astro";
+import Matter from "@/components/ui/Matter.astro";
 import Tools from "../ui/Tools.astro";
 interface Props {
-  title?: string;
-  description?: string;
+	title?: string;
+	description?: string;
 }
 const { title, description } = Astro.props;
 ---
@@ -115,7 +115,7 @@ const { title, description } = Astro.props;
         </div>
       </div>
 
-      <!-- 第二列 -->
+      <!-- Second column -->
       <div
         class="explore-column explore-column-2 w-full flex gap-3 sm:gap-4 flex-col"
       >
@@ -510,7 +510,7 @@ const { title, description } = Astro.props;
         playPromise
           .then(() => {
             isPlaying = true;
-            playAttempts = 0; // 成功后重置计数
+            playAttempts = 0; // Reset count on success
             console.log("Video started playing successfully");
           })
           .catch((error) => {
@@ -520,7 +520,7 @@ const { title, description } = Astro.props;
               error.name,
             );
 
-            // 如果是用户交互问题，等待用户交互后重试
+            // If user interaction required, retry after interaction
             if (error.name === "NotAllowedError") {
               handleUserInteraction();
             }

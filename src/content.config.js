@@ -1,13 +1,13 @@
-// 1. 从 `astro:content` 导入工具函数
-import { defineCollection, z } from 'astro:content';
+// 1. Import utilities from `astro:content`
+import { defineCollection, z } from "astro:content";
 
-// 2. 导入加载器
-import { glob } from 'astro/loaders';
+// 2. Import loader
+import { glob } from "astro/loaders";
 
-// 3. 定义你的集合
+// 3. Define your collection
 const post = defineCollection({
-	// 使用 glob 加载器从 src/content/post 目录加载所有 .mdx 文件
-	loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/post' }),
+	// Use glob loader to load all .mdx files from src/content/post
+	loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/post" }),
 	// Type-check frontmatter using a schema
 	schema: z.object({
 		title: z.string(),
@@ -21,6 +21,5 @@ const post = defineCollection({
 	}),
 });
 
-// 4. 导出一个 `collections` 对象来注册你的集合
+// 4. Export a `collections` object to register your collection
 export const collections = { post };
-

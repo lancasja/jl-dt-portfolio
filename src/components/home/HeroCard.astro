@@ -1,17 +1,13 @@
 ---
 // Define properties accepted by the component
 interface Props {
-  imageUrl: string; // Required
-  title?: string; // Optional, default "Home"
-  link?: string; // Optional, can be empty
+	imageUrl: string; // Required
+	title?: string; // Optional, default "Home"
+	link?: string; // Optional, can be empty
 }
 
 // Set default values and receive incoming properties
-const {
-  imageUrl,
-  title = "Home",
-  link = ""
-} = Astro.props;
+const { imageUrl, title = "Home", link = "" } = Astro.props;
 ---
 
 <div class="relative z-20 w-full web-case" data-href={link}>

@@ -1,6 +1,6 @@
 // Get site URL from environment variable, use default value if not set
 // Note: Please set the correct PUBLIC_SITE_URL in .env file after first deployment
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://jaml.studio';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL || "https://jaml.studio";
 
 export const siteConfig = {
 	title: "JL Portfolio",
@@ -16,8 +16,10 @@ export const siteConfig = {
 	},
 	meta: {
 		title: "JL  Portfolio",
-		description: "I'm Jonathan, a web designer passionate about both design and code. Currently developing personal projects for the music community.",
-		keywords: "web designer, portfolio, design, code, personal website, music, audio",
+		description:
+			"I'm Jonathan, a web designer passionate about both design and code. Currently developing personal projects for the music community.",
+		keywords:
+			"web designer, portfolio, design, code, personal website, music, audio",
 		image: `${SITE_URL}/og.jpg`,
 		twitterHandle: "",
 	},
@@ -50,5 +52,3 @@ export const socialLinks = [
 	// 	icon: `<svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M73.075 0H5.925C4.35359 0 2.84655 0.624239 1.73539 1.73539C0.624239 2.84655 0 4.35359 0 5.925V73.075C0 74.6464 0.624239 76.1535 1.73539 77.2646C2.84655 78.3758 4.35359 79 5.925 79H73.075C74.6464 79 76.1535 78.3758 77.2646 77.2646C78.3758 76.1535 79 74.6464 79 73.075V5.925C79 4.35359 78.3758 2.84655 77.2646 1.73539C76.1535 0.624239 74.6464 0 73.075 0ZM23.7 67.15H11.85V31.6H23.7V67.15ZM17.775 24.6875C16.4169 24.6487 15.1004 24.2105 13.9899 23.4278C12.8794 22.645 12.0243 21.5523 11.5312 20.2863C11.0382 19.0203 10.9292 17.6371 11.2178 16.3094C11.5064 14.9818 12.1798 13.7687 13.1539 12.8216C14.1281 11.8745 15.3597 11.2355 16.6949 10.9844C18.0302 10.7333 19.4098 10.8812 20.6614 11.4097C21.913 11.9382 22.9812 12.8239 23.7324 13.9559C24.4835 15.088 24.8844 16.4164 24.885 17.775C24.8538 19.6329 24.0884 21.4029 22.7561 22.6981C21.4239 23.9934 19.633 24.7086 17.775 24.6875ZM67.15 67.15H55.3V48.427C55.3 42.818 52.93 40.8035 49.849 40.8035C48.9457 40.8636 48.0631 41.1017 47.2521 41.5039C46.441 41.9061 45.7174 42.4646 45.1228 43.1473C44.5282 43.83 44.0743 44.6234 43.7872 45.482C43.5002 46.3406 43.3856 47.2475 43.45 48.1505C43.4304 48.3343 43.4304 48.5197 43.45 48.7035V67.15H31.6V31.6H43.055V36.735C44.2105 34.9773 45.798 33.5457 47.6654 32.5774C49.5328 31.6091 51.6176 31.1365 53.72 31.205C59.8425 31.205 66.992 34.602 66.992 45.662L67.15 67.15Z" fill="white"/></svg>`
 	// },
 ];
-
-
