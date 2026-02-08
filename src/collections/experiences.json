@@ -1,17 +1,59 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Web & Product Designer",
-		"company": "Company Name",
-		"description": "Leading the design of user-centric web applications and dating platforms.",
+		"dates": "2025 · Present",
+		"role": "Production Manager",
+		"company": "Envelop.us",
+		"description": [
+			"I plan and run immersive listening events - coordinating tech setup, artists, and audiences to create memorable spatial audio experiences. Lots of real-time troubleshooting and keeping multiple moving parts synchronized."
+		],
+		"logo": "/assets/experiences/company.jpg",
+		"related": false
+	},
+	{
+		"dates": "Nov 2017 · Mar 2023",
+		"role": "Design Technologist",
+		"company": "Indeed.com",
+		"description": [
+			"Bridged design and engineering by prototyping interfaces, building reusable component libraries, and creating tools that automated designer workflows. Helped build Indeed's first comprehensive design system - basically creating shortcuts so teams could move faster without reinventing the wheel each time."
+		],
 		"logo": "/assets/experiences/company.jpg"
 	},
 	{
-		"dates": "July 2016 · June 2017",
-		"role": "Web & Product Designer",
-		"company": "Company Name",
-		"description": "Spearheaded the design and development of e-commerce websites and online marketplaces.",
+		"dates": "Jun 2015 · Nov 2017",
+		"role": "Quality Assurance Engineer",
+		"company": "Indeed.com",
+		"description": [
+			"Moved from manual testing to building automated test systems that caught bugs early. Worked directly with engineering to identify issues, document clearly, and streamline the path from code to production through CI/CD pipelines."
+		],
 		"logo": "/assets/experiences/company.jpg"
+	},
+	{
+		"dates": "Mar 2012 · Aug 2014",
+		"role": "Web Developer & Operations Coordinator",
+		"company": "SVIGDA Workshops",
+		"description": [
+			"Built and maintained digital presence while organizing large-scale tech conferences and a mobile game accelerator. Learned to manage both technical systems and the human logistics of getting 200+ people working together effectively."
+		],
+		"logo": "/assets/experiences/company.jpg"
+	},
+	{
+		"dates": "Apr 2019 · Jun 2019",
+		"role": "Creative Coding Workshop",
+		"company": "Gray Area",
+		"description": [
+			"Learned and developed micro controller, projection mapping and creative software systems for interactive art installations and gallery showcase."
+		],
+		"logo": "/assets/experiences/company.jpg",
+		"related": false
+	},
+	{
+		"dates": "Mar 2012 · Jun 2015",
+		"role": "Audio Engineer",
+		"company": "Hyde Street Studios",
+		"description": [
+			"Assisted recording sessions at a historic studio - managing signal flow, equipment setup, and whatever kept sessions productive. Learned technical precision matters, but so does reading the room and maintaining good creative energy."
+		],
+		"logo": "/assets/experiences/company.jpg",
+		"related": false
 	}
-
 ]

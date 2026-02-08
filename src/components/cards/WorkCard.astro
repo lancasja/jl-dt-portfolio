@@ -2,28 +2,34 @@
 interface Props {
   name: string;          // Required
   image: string;         // Required
-  url: string;          // Required
+  url?: string;          // Optional external URL
+  slug?: string;         // Optional slug for internal case study page
   description?: string;  // Optional
   tags?: string[];      // Optional
   video?: string;       // Optional
   isShow?: boolean;     // Optional, default true
   layout?: 'featured' | 'grid'; // featured is full width, grid is two columns
   index?: number;
-  target?: string;      // Optional, default "_blank"
+  target?: string;      // Optional, default based on slug presence
 }
 
 const {
   name,
   description = '',
-  url,
+  url = '',
+  slug,
   image,
   tags = [],
   video,
   isShow = true,
   layout = 'grid',
   index = 0,
-  target = "_blank"
+  target
 } = Astro.props;
+
+// Compute href and target based on slug vs url
+const href = slug ? `/work/${slug}` : (url || '#');
+const linkTarget = target ?? (slug ? '_self' : '_blank');
 
 // Generate stable id for each video for precise playback control
 const videoId = `workcard-video-${index}-${name.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}`;
@@ -155,9 +161,9 @@ const videoId = `workcard-video-${index}-${name.replace(/[^a-z0-9]+/gi, '-').toL
 
   <!-- Link overlay for entire card -->
   <a
-    href={url}
-    target={target}
-    rel={target === "_blank" ? "noopener noreferrer" : undefined}
+    href={href}
+    target={linkTarget}
+    rel={linkTarget === "_blank" ? "noopener noreferrer" : undefined}
     class="absolute inset-0 z-10"
   >
     <span class="sr-only">View {name}</span>

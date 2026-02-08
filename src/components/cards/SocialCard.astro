@@ -1,12 +1,12 @@
 ---
 import social from "@/collections/social.json";
 const { displaySocialIds } = Astro.props;
-// 配置要显示的社交媒体 ID（留空则显示所有）
-//const displaySocialIds: number[] = [1, 2, 3]; // 只显示 ID 为 1, 2, 3 的社交媒体
-// const displaySocialIds: number[] = []; // 显示所有（当数组为空时）
+// Configure which social media IDs to display (leave empty to display all)
+// const displaySocialIds: number[] = [1, 2, 3]; // Only display social media with IDs 1, 2, 3
+// const displaySocialIds: number[] = []; // Display all if array is empty
 
 const filteredSocial = social.filter(item => {
-  if (item.isShow === false) return false;
+  if (item.isShow === false ) return false;
   if (displaySocialIds.length > 0) {
     return displaySocialIds.includes(item.id);
   }
@@ -31,8 +31,8 @@ const filteredSocial = social.filter(item => {
         />
         <div class="social-info">
           <div class="social-username">
-            @{item.username}
-          </div>
+            { item.username !== "" ? `@${item.username}` : 'email'}
+          </div> 
         </div>
       </a>
     ))}

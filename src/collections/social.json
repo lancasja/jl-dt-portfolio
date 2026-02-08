@@ -2,66 +2,42 @@
 	{
         "id": 1,
 		"name": "Github",
-        "username": "ricocc",
+        "username": "lancasja",
 		"image": "/assets/social/social-github.jpg",
-		"url": "https://github.com/ricocc/"
+		"url": "https://github.com/lancasja/"
+	},
+	
+	{
+        "id": 2,
+		"name": "Figma",
+        "username": "hichusushi",
+		"image": "/assets/social/social-figma.jpg",
+		"url": "https://www.figma.com/@hichusushi"
+	},
+	
+	{
+        "id": 3,
+		"name": "Bandcamp",
+        "username": "jaml17",
+		"image": "/assets/social/social-bandcamp.jpg",
+		"url": "https://bandcamp.com/jaml17"
 	},
 
 	{
-        "id": 2,
-		"name": "Xiaohongshu",
-        "username": "ricouii",
-		"image": "/assets/social/social-xiaohongshu.jpg",
-		"url": "https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f"
-	},
-
-    {
-        "id": 3,
-		"name": "Twitter",
-        "username": "ricouii",
-		"image": "/assets/social/social-twitter.jpg",
-		"url": "https://x.com/ricouii"
-	},
-
-    {
         "id": 4,
-		"name": "Gumroad",
-        "username": "ricoui",
-		"image": "/assets/social/social-gumroad.jpg",
-		"url": "https://ricoui.gumroad.com/"
+		"name": "LinkedIn",
+        "username": "jaml17",
+		"image": "/assets/social/social-linkedin.jpg",
+		"url": "https://www.linkedin.com/in/jaml17/"
 	},
 
     {
         "id": 5,
-		"name": "Behance",
-        "username": "ricoui",
-		"image": "/assets/social/social-behance.jpg",
-		"url": "https://www.behance.net/ricoui"
-	},
-
-    {
-        "id": 6,
-		"name": "figma",
-        "username": "ricocc",
-		"image": "/assets/social/social-figma.jpg",
-		"url": "https://www.figma.com/@ricocc",
-        "isShow": false
-	},
-
-    {
-        "id": 7,
-		"name": "Dribbble",
-        "username": "ricoui",
-		"image": "/assets/social/social-dribbble.jpg",
-		"url": "https://dribbble.com/ricoui"
-	},
-
-    {
-        "id": 8,
 		"name": "Email",
-        "username": "ricocc",
+        "username": "",
 		"image": "/assets/social/social-email.jpg",
-		"url": "mailto:ricocc@qq.com"
+		"url": "mailto:jaml17@proton.me",
+		"isShow": true
 	}
 
 

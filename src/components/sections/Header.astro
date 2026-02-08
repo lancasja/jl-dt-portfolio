@@ -11,11 +11,6 @@ import Logo from "@/components/ui/Logo.astro";
   <div id="site-container"
     class="flex items-center justify-between h-14 sm:h-15 site-container mx-auto px-4 sm:px-6 py-2.5 border-transparent border-[0.5px] transition-all duration-300"
   >
-    <!-- Logo -->
-    <div class="flex-shrink-0 z-50">
-      <Logo />
-    </div>
-
     <!-- Mobile Menu Background Overlay -->
     <div
       id="mobileMenuBackground"
@@ -108,21 +103,11 @@ import Logo from "@/components/ui/Logo.astro";
             })
           }
         </div>
-
-        <!-- Contact Button (Mobile) -->
-        <div class="relative z-10 w-full px-5 mt-3 sm:hidden">
-          <Button url="javascript:void(0);" type="fill" className="m-auto w-full justify-center ">
-            Resume <Download size={16} />
-          </Button>
-        </div>
       </div>
 
       <!-- Desktop Actions -->
       <div class="relative hidden sm:flex items-center gap-2 ml-4 lg:ml-6">
         <!-- Contact Button (Desktop) -->
-        <Button url="javascript:void(0);" type="fill" className="md:flex mx-1">
-          Resume <Download size={16} />
-        </Button>
 
         <span class="separator-line  hidden sm:inline-block bg-[rgba(183,202,255,0.5)] mt-[20px] -translate-y-1/2 w-px h-[20px]"></span>
 

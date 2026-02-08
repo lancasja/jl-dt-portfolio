@@ -1,58 +1,48 @@
 [
 	{
-		"name": "RicoOG",
-		"description": "OG Inspiration Library",
-		"tags": ["Open Graph", "Design", "Library"],
-		"image": "/assets/works/ricoog.jpg",
-		"video": "/assets/works/ricoog.mp4",
-		"url": "https://ricoog.com/",
+		"name": "Gamepad as DAW Controller",
+		"slug": "gamepad-daw",
+		"description": "Desktop app that turns gamepads into controllers for audio tools. Bridges hardware input protocols with MIDI, enabling real-time control of Ableton Live through custom Python scripts.",
+		"tags": [
+			"Electron",
+			"Node",
+			"Javascript",
+			"Typescript",
+			"Python",
+			"MIDI",
+			"HID",
+			"React",
+			"Vite",
+			"Webpack",
+			"Tools",
+			"Desktop App",
+			"Design",
+			"Prototyping",
+			"Project Management",
+			"MacOS"
+		],
+		"image": "/assets/works/gamepad-daw-hero.png",
+		"video": "",
+		"url": "",
 		"isShow": true
 	},
 	{
-		"name": "GradientsHub",
-		"description": "Gradient Resources & Tools",
-		"tags": ["Gradient","Resources","Tools"],
-		"image": "/assets/works/gradientshub.jpg",
-		"video": "/assets/works/gradientshub.mp4",
-		"url": "https://gradientshub.com"
-	},
-	{
-		"name": "Luon Models",
-		"description": "Agency Company Website",
-		"tags": ["Agency","Website"],
-		"image": "/assets/works/luonmodels.jpg",
-		"video": "/assets/works/luonmodels.mp4",
-		"url": "/work/luonmodels"
-	},
-	{
-		"name": "Ricoui",
-		"description": "Designer Portfolio",
-		"tags": ["Designer","Portfolio","Open Source"],
-		"image": "/assets/works/ricoui.jpg",
-		"video": "/assets/works/ricoui.mp4",
-		"url": "/work/ricoblog2024"
-
-	},
-	{
-		"name": "3D Valentines Assets",
-		"description": "Blender Design Resources & Assets",
-		"tags": ["3D","Resources","Assets"],
-		"image": "/assets/works/3d-valentines.jpg",
-		"video": "/assets/works/3d-valentines.mp4",
-		"url": "/work/3dvalentine"
-	},
-	{
-		"name": "UIUXDECK",
-		"description": "Design Resources & Tools",
-		"tags": ["Design","Resources","Tools"],
-		"image": "/assets/works/uiuxdeck.jpg",
-		"url": "http://uiuxdeck.com/"
-	},
-	{
-		"name": "Inspoweb",
-		"description": "Web Inspiration Library",
-		"tags": ["Inspiration","Web Collection"],
-		"image": "/assets/works/inspoweb.jpg",
-		"url": "https://inspoweb.com/"
+		"name": "Cross-platform Desktop App Starter with Licensing and Auth",
+		"slug": "cross-platform-starter",
+		"description": "A production-ready starter template for building desktop apps. Includes integrated subscription licensing, user authentication, and cross-platform builds. Handling payments, auth, and deployment infrastructure out of the box.",
+		"tags": [
+			"Desktop App",
+			"Tools",
+			"Electron",
+			"Javascript",
+			"Typescript",
+			"Node",
+			"React",
+			"Vite",
+			"APIs"
+		],
+		"image": "/assets/works/supasqueezy-cap.png",
+		"video": "",
+		"url": ""
 	}
 ]

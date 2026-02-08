@@ -8,6 +8,7 @@ import BlogSection from "@/components/sections/BlogSection.astro";
 import SocialCard from "@/components/cards/SocialCard.astro";
 import AnimatedText from "@/components/ui/AnimatedText.astro";
 import Explore from "@/components/sections/Explore.astro";
+import { Download } from "@lucide/astro";
 ---
 
 <Layout
@@ -23,7 +24,7 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         <!-- Title - AnimatedText animation -->
         <h1 class="mb-4">
           <AnimatedText
-            content="Hi, I'm Rico"
+            content="Jonathan Lancaster"
             delay={0.1}
             duration={0.5}
             stagger={0.08}
@@ -32,9 +33,9 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         </h1>
 
         <!-- First description - AnimatedText animation -->
-        <div class="mb-2">
+        <div class="mb-4">
           <AnimatedText
-            content="I'm a web/UI designer with 8+ years of experience. I love blending design and code to create captivating visuals and interactive experiences."
+            content="I work where music, technology and design collide."
             delay={0.3}
             duration={0.5}
             stagger={0.015}
@@ -45,25 +46,32 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         <!-- Second description - AnimatedText animation -->
         <div class="mb-4">
           <AnimatedText
-            content="I believe great design should be both delightful and solve real-world challenges."
+            content="I come with enterprise-level experience in software development, specialized in web tech, prototyping, and design systems."
             delay={0.5}
             duration={0.5}
             stagger={0.015}
             class="text-base text-neutral-700 dark:text-neutral-300"
           />
         </div>
-
-        <!-- Button - AOS animation -->
-        <div
-          class=""
-          data-aos="fade-up-sm"
-          data-aos-delay="900"
-          data-aos-duration="500"
-          data-aos-once="true"
-        >
-          <Button url={siteConfig.social.twitter} type="fill" className="m-auto mt-4 text-center sm:text-left sm:m-0 sm:mt-6 max-w-[200px]">
-            Follow me on 𝕏
-          </Button>
+        
+        <div class="mb-4">
+          <AnimatedText
+            content="I am also a conservatory-trained musician and active music creator."
+            delay={0.5}
+            duration={0.5}
+            stagger={0.015}
+            class="text-base text-neutral-700 dark:text-neutral-300"
+          />
+        </div>
+        
+        <div class="mb-4">
+          <AnimatedText
+            content="I can help design and create tools, sites, apps and experiences to solve problems and delight."
+            delay={0.5}
+            duration={0.5}
+            stagger={0.015}
+            class="text-base text-neutral-700 dark:text-neutral-300"
+          />
         </div>
 
         <!-- Social Cards - AOS animation -->
@@ -74,7 +82,7 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
           data-aos-duration="600"
           data-aos-once="true"
         >
-          <SocialCard displaySocialIds={[1, 2, 3,4]}/>
+          <SocialCard displaySocialIds={[]}/>
         </div>
       </div>
 
@@ -89,7 +97,7 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         <HeroCard
           imageUrl="/assets/home/gradientshub.jpg"
           title="Gradientshub"
-          link="https://gradientshub.com"
+          link=""
         />
       </div>
     </div>
@@ -104,29 +112,4 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
   >
     <Explore title="Explore ↓"  />
   </section>
-
-  <section
-    class="mt-26 mb-12"
-    data-aos="fade-up-sm"
-    data-aos-delay="100"
-    data-aos-duration="600"
-    data-aos-once="true"
-  >
-    <FeaturedWork title="Featured Work ↓" description="I create innovative and purposeful designs that not only capture attention but also drive meaningful results." limit={5} />
-  </section>
-
-  <section
-    class="mt-26 mb-12"
-    data-aos="fade-up-sm"
-    data-aos-delay="100"
-    data-aos-duration="600"
-    data-aos-once="true"
-  >
-    <BlogSection
-      title="Latest Articles  ↓"
-      description="These are my notes and articles on design, development and life thinking."
-      showViewAllButton={true}
-    />
-  </section>
-
 </Layout>

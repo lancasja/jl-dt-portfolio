@@ -4,11 +4,7 @@
 		"url": "/"
 	},
 	{
-		"name": "Writing",
-		"url": "/blog"
-	},
-	{
-		"name": "Works",
+		"name": "Projects",
 		"url": "/works"
 	},
 	{
