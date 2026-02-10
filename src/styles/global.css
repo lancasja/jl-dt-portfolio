@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
 @import "tailwindcss";
 
 /* Path relative to current CSS file */
@@ -104,6 +103,7 @@ html.dark {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    flex-grow: 1;
   }
   .inner-container {
     max-width: var(--inner-screen);
@@ -127,7 +127,14 @@ html.dark {
 }
 html,body{
   color: var(--color-text-secondary);
+  height: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 html.dark,html.dark body{
   color: var(--color-text-secondary-dark);
 }
